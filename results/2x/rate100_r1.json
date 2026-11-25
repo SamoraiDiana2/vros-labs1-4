@@ -1,0 +1,22 @@
+{
+  "mode": "open",
+  "base": "http://127.0.0.1:18080",
+  "path": "/shifts/{id}",
+  "rate": 100,
+  "warmup_s": 10,
+  "duration_s": 30,
+  "procs": 1,
+  "threads_per_proc": 64,
+  "requests_in_window": 3000,
+  "achieved_rps": 100.0,
+  "p50_ms": 2.8857456571493856,
+  "p95_ms": 6.184686857043437,
+  "p99_ms": 12.476820436970618,
+  "mean_ms": 3.5120577985148174,
+  "non2xx_share": 0.0,
+  "L_mean": 0.3512057798514817,
+  "L_max": 5,
+  "instances": {
+    "": 3000
+  }
+}
